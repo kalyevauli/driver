@@ -1,0 +1,526 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+/*header-start*/
+#header{
+    position: sticky;
+    width: 100%;
+    z-index: 11;
+    padding: 20px 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header h1{
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+}
+.head a{
+    padding-left: 40px;
+    width: 87px;
+    height: 22px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 300;
+}
+.sign ion-icon{
+    font-size: 20px;
+    color: red;
+}
+.sign a{
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+}
+/*header-end */
+
+
+/*square-start*/
+#square{
+    background: #C4C4C4;
+    padding: 20px 0;
+}
+/*square-end*/
+
+
+
+/*hero-start*/
+.hero{
+    background: url("../img/lambo.png") no-repeat  center/cover;
+    min-height: 80vh;
+    padding-top: 41px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.hero-img h1{
+    margin-right: 90px;
+    color: #000;
+    font-size: 32px;
+    font-weight: 400;
+}
+.hero-img h4{
+    padding: 20px 0;
+    color: #000;
+    font-size: 26px;
+    font-weight: 400;
+}
+.hero-img button{
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 400;
+    width: 158px;
+    height: 41px;
+    background: #21408E;
+    border-radius: 30px;
+}
+.hero-img button:hover{
+    cursor: pointer;
+    background: #fff;
+    color:#21408E;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+/*hero-end*/
+
+
+
+
+/*block-start*/
+#block{
+    padding: 20px 0;
+}
+.block{
+    width: 1350px;
+    height: 250px;
+    background: #C4C4C4;
+    padding-left: 20px;
+}
+.block h1{
+    padding-top: 20px;
+    color: #081630;
+    font-size: 39px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.block p{
+    width: 554px;
+    color: rgba(0, 0, 0, 0.66);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 0;
+}
+.input-block input{
+    margin-left: 40px;
+    width: 290px;
+    height: 50px;
+    border-radius: 26px;
+
+}
+.input-block button{
+    margin-left: 60px;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 400;
+    border-radius: 26px;
+    background: #21408E;
+    width: 153px;
+    height: 50px;
+}
+.input-block button:hover{
+cursor: pointer;
+background: #fff;
+color:#21408E;
+transition: 0.5s;
+transform: scale(1.1);
+}
+/*block-end*/
+
+
+
+/*sales-start*/
+#sales{
+    padding: 20px 0;
+}
+.sales{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.circle{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sales-text h1{
+    color: #21408E;
+    font-size: 45px;
+    font-weight: 400;
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+.circle h3{
+    font-weight: 700;
+}
+.circle p{
+    padding: 10px 0;
+    width: 354px;
+    color: #000;
+    font-size: 17px;
+    font-weight: 400;
+}
+.text{
+    margin-left: 50px;
+}
+/*sales-end*/
+
+/*title-start*/
+#title{
+    padding: 40px 0;
+}
+.title h1{
+    text-align: center;
+    color: #000;
+    font-size: 45px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 265px;
+    height: 500px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+.hor{
+    margin-left: 8px;
+    width: 250px;
+    height: 170px;
+    background: #e3dcdc;
+}
+.hhh{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hor button{
+    margin-left: 30%;
+    width: 89px;
+    height: 36px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 12px;
+    background: #21408E;
+}
+.hhh p{
+    font-size: 15px;
+    color: #000;
+    font-weight: 400;
+}
+.dd{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.dd ion-icon{
+    color: #000;
+    font-size: 15px;
+}
+.ss ion-icon{
+    color: #F1BC00;;
+    font-size: 20px;
+}
+.ss{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hor h2{
+    color: #21408E;
+    font-weight: 500;
+    text-align: center;
+}
+.blocks{
+    width: 250px;
+    height: 100px;
+    background: #e3dcdc;
+}
+.blocks h1{
+    color: #21408E;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 400;
+}
+/*title-end*/
+
+/*our-start*/
+#our{
+    padding: 40px 0;
+}
+#our h1{
+    padding: 40px 0;
+    color: #000;
+    font-size: 45px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+.blo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 185px;
+    height: 55px;
+    border-radius: 13px;
+    background: #C4C4C4;
+}
+.our{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#our h3{
+    text-align: center;
+    padding-top: 30px;
+    color: #000;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.line1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    width: 72px;
+    height: 3px;
+    background: #F1BC00;
+}
+/*our-end*/
+
+/*fell-start*/
+#fell{
+    padding: 80px 0;
+}
+.fell h1{
+    text-align: center;
+    color: #000;
+    font-size: 45px;
+    font-weight: 600;
+}
+.bag h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: #000;
+}
+.bag{
+    padding: 40px 0;
+}
+.bag img{
+    margin-left: 30%;
+}
+.bag p{
+    text-align: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/*fell-end*/
+
+
+/*need-start*/
+#need{
+    padding-top: 40px;
+}
+.need{
+    background: url("../img/driver.png") no-repeat center/cover;
+    min-height: 60vh;
+}
+.need h1{
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.nid{
+    display: flex;
+    align-items: end;
+}
+.need p{
+    padding-top: 70px;
+    padding-left: 40px;
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.need-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 950px;
+    height: 93px;
+    border-radius: 10px;
+    background: #E5E5E5;
+    margin-left: 40px;
+}
+.need-input button{
+    margin-right: 20px;
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    border-radius: 10px;
+    background: #21408E;
+    width: 120px;
+    height: 57px;
+}
+.need-input button:hover{
+    cursor: pointer;
+    background: #fff;
+    color:#21408E;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.need-input input{
+    padding-left: 20px;
+    background: #E5E5E5;
+    border: none;
+    width: 900px;
+    height: 93px;
+    outline: none;
+}
+/*need-end*/
+
+/*yellow-start*/
+#yellow{
+     background: #F1BC00;
+
+}
+.yellow{
+    padding-bottom: 80px;
+}
+.yellow h1{
+    padding: 40px 0;
+    text-align: center;
+    color: #000;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.yel-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 25%;
+    width: 631px;
+    height: 61px;
+    border-radius: 10px;
+    background: #E5E5E5;
+}
+.yel-input input{
+    width: 300px;
+    height: 61px;
+    border: none;
+    outline: none;
+    background: #E5E5E5;
+}
+.yel-input button{
+    color: white;
+    width: 100px;
+    height: 47px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background: #21408E;
+}
+/*yellow-end*/
+
+
+/*footer-start*/
+#footer{
+    background: #081630;
+}
+.foot-bl{
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ll h1{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.ll p{
+    padding-top: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+.foot-line{
+    margin-left: 10%;
+    width: 1079px;
+    height: 2px;
+    background: white;
+}
+.kkk{
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.kkk h1{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: normal;
+}
+.ion ion-icon{
+    color: white;
+    font-size: 23px;
+    padding-left: 20px;
+}
+/*footer-end*/
